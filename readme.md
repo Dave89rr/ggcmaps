@@ -1,4 +1,4 @@
-# Gwinnett Grizzlies Map
+# GGCMaps
 #### Our Sponsors
 <a href="http://www.BrowserStack.com/"><img src="https://github.com/soft-eng-practicum/ggcmaps/blob/master/images/tinylogoBrowserStack.png" atl="BrowserStack"></a>
 
@@ -19,7 +19,7 @@
 ###### [Past News](https://github.com/soft-eng-practicum/ggcmaps/blob/master/news.md)
 
 ### Description
-Gwinnett Grizzlies Map aims to better, as well as ease, the experience of students at GGC when trying to find various locations across campus. It allows users to search rooms and have them be highlighted on an interactive map for easier meetups, less time wasted finding that one classroom for the first time, and easier navigation across campus for guests.
+GGCMaps aims to better, as well as ease, the experience of students at GGC when trying to find various locations across campus. It allows users to search rooms and have them be highlighted on an interactive map for easier meetups, less time wasted finding that one classroom for the first time, and easier navigation across campus for guests.
 
 This project was started by [Mike Deiters et al](https://github.com/soft-eng-practicum/ggcmaps#fall-16---created-by), in Fall of 2016. It has since been picked up for continuation by [David Rivera et al](https://github.com/soft-eng-practicum/ggcmaps#current-members-spring-17), to further develop its features, and fix bugs as our Software Development II project.
 
@@ -35,7 +35,7 @@ This project was started by [Mike Deiters et al](https://github.com/soft-eng-pra
 ### The Team
 #### Current Members (Spring '17):
 1. David Rivera - Project Manager/Client Liason
-2. Margaret Muse- UI/Documentation
+2. Margaret Muse- UI/Documentation/Testing
 3. Carlos Pacheco - Programmer/Testing
 4. Joshua Gerth - Data Modeler/Programmer
 
