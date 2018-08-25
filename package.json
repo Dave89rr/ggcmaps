@@ -1,26 +1,60 @@
 {
-  "name": "GGCMaps",
-  "version": "1.4.2",
+  "name": "ggcmaps",
+  "version": "1.5.0",
   "private": true,
-  "authors": [
-    "Aston Tsou",
-    "Carlos Pacheco",
-    "David Rivera",
-    "Josh Gerth",
-    "Maggie Muse",
-    "Mike Deiters",
-    "Nareth Seang"
+  "contributors": [
+    {
+      "name": "Aston Tsou",
+      "email": "astontsou@gmail.com"
+    },
+    {
+      "name": "Carlos Pacheco",
+      "email": "cpacheco4983@gmail.com"
+    },
+    {
+      "name": "David Rivera",
+      "email": "david@irl.solutions",
+      "url": "www.irl.solutions"
+    },
+    {
+      "name": "Josh Gerth",
+      "email": "jgerth@ggc.edu"
+    },
+    {
+      "name": "Maggie Muse"
+    },
+    {
+      "name": "Mike Deiters",
+      "email": "mike@deiters.me",
+      "url": "www.deiters.me"
+    },
+    {
+      "name": "Nareth Seang",
+      "email": "nseang2@gmail.com"
+    }
   ],
-  "license": "Creative Commons",
-  "scripts": {
-    "start": "http-server -p 3000"
+  "license": "GNU General Public License v3.0",
+  "config": {
+    "port": 3000,
+    "mount": "/mnt/dev/project",
+    "docker_image": "mdeiters/minimalistweb",
+    "image_version": "latest"
   },
-  "devDependencies": {
+  "scripts": {
+    "start": "http-server -p 3000",
+    "dev": "grunt dev",
+    "server": "grunt server",
+    "docker": "node .scripts/docker.js",
+    "purge": "docker container prune"
+  },
+  "dependencies": {
+    "susy": "^3.0.5",
     "grunt": "^1.0.1",
     "grunt-contrib-compass": "^1.1.1",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-http-server": "^2.1.0",
     "phantomjs": "^2.1.7"
   }
 }
